@@ -9,7 +9,7 @@ on:
 
 jobs:
   lint:
-    runs-on: windows-latest
+    runs-on: ubuntu-latest
     steps:
       - name: Checkout last commit
         uses: actions/checkout@v4
